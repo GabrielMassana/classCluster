@@ -15,13 +15,15 @@
 		7A73C79A1970403D0078F2E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A73C7991970403D0078F2E3 /* AppDelegate.m */; };
 		7A73C79D1970403D0078F2E3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A73C79B1970403D0078F2E3 /* Main_iPhone.storyboard */; };
 		7A73C7A01970403D0078F2E3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A73C79E1970403D0078F2E3 /* Main_iPad.storyboard */; };
-		7A73C7A31970403D0078F2E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A73C7A21970403D0078F2E3 /* ViewController.m */; };
 		7A73C7A51970403D0078F2E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A73C7A41970403D0078F2E3 /* Images.xcassets */; };
 		7A73C7AC1970403D0078F2E3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A73C7AB1970403D0078F2E3 /* XCTest.framework */; };
 		7A73C7AD1970403D0078F2E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A73C7891970403D0078F2E3 /* Foundation.framework */; };
 		7A73C7AE1970403D0078F2E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A73C78D1970403D0078F2E3 /* UIKit.framework */; };
 		7A73C7B61970403D0078F2E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A73C7B41970403D0078F2E3 /* InfoPlist.strings */; };
 		7A73C7B81970403D0078F2E3 /* clusterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A73C7B71970403D0078F2E3 /* clusterTests.m */; };
+		7A73C7C3197040D10078F2E3 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A73C7C2197040D10078F2E3 /* MasterViewController.m */; };
+		7A73C7C6197042920078F2E3 /* IPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A73C7C5197042920078F2E3 /* IPadViewController.m */; };
+		7A73C7C91970429E0078F2E3 /* IPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A73C7C81970429E0078F2E3 /* IPhoneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +49,18 @@
 		7A73C7991970403D0078F2E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7A73C79C1970403D0078F2E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		7A73C79F1970403D0078F2E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		7A73C7A11970403D0078F2E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7A73C7A21970403D0078F2E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7A73C7A41970403D0078F2E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7A73C7AA1970403D0078F2E3 /* clusterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clusterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A73C7AB1970403D0078F2E3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7A73C7B31970403D0078F2E3 /* clusterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "clusterTests-Info.plist"; sourceTree = "<group>"; };
 		7A73C7B51970403D0078F2E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7A73C7B71970403D0078F2E3 /* clusterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clusterTests.m; sourceTree = "<group>"; };
+		7A73C7C1197040D10078F2E3 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		7A73C7C2197040D10078F2E3 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		7A73C7C4197042920078F2E3 /* IPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPadViewController.h; sourceTree = "<group>"; };
+		7A73C7C5197042920078F2E3 /* IPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPadViewController.m; sourceTree = "<group>"; };
+		7A73C7C71970429E0078F2E3 /* IPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPhoneViewController.h; sourceTree = "<group>"; };
+		7A73C7C81970429E0078F2E3 /* IPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPhoneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +124,12 @@
 				7A73C7991970403D0078F2E3 /* AppDelegate.m */,
 				7A73C79B1970403D0078F2E3 /* Main_iPhone.storyboard */,
 				7A73C79E1970403D0078F2E3 /* Main_iPad.storyboard */,
-				7A73C7A11970403D0078F2E3 /* ViewController.h */,
-				7A73C7A21970403D0078F2E3 /* ViewController.m */,
+				7A73C7C1197040D10078F2E3 /* MasterViewController.h */,
+				7A73C7C2197040D10078F2E3 /* MasterViewController.m */,
+				7A73C7C71970429E0078F2E3 /* IPhoneViewController.h */,
+				7A73C7C81970429E0078F2E3 /* IPhoneViewController.m */,
+				7A73C7C4197042920078F2E3 /* IPadViewController.h */,
+				7A73C7C5197042920078F2E3 /* IPadViewController.m */,
 				7A73C7A41970403D0078F2E3 /* Images.xcassets */,
 				7A73C7901970403D0078F2E3 /* Supporting Files */,
 			);
@@ -253,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A73C7A31970403D0078F2E3 /* ViewController.m in Sources */,
+				7A73C7C6197042920078F2E3 /* IPadViewController.m in Sources */,
+				7A73C7C91970429E0078F2E3 /* IPhoneViewController.m in Sources */,
 				7A73C79A1970403D0078F2E3 /* AppDelegate.m in Sources */,
+				7A73C7C3197040D10078F2E3 /* MasterViewController.m in Sources */,
 				7A73C7961970403D0078F2E3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
